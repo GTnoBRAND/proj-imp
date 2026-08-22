@@ -1,0 +1,12 @@
+there are different data types in java and each takes different memory size
+
+
+char = 16bit
+byte = 8bit
+short = 16bit
+int = 32bit
+long = 64bit
+float = 32bit
+double = 64bit
+boolean = 1
+String uses memory as required
