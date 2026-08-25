@@ -14,5 +14,19 @@ public class ManipulatingStrings {
             System.out.println("Next time!");
         }
 
+
+
+        //Example 2
+        String lower = "jack parrot";
+        String upper = "JACK PARROT";
+
+        /**in this case equalsIgnoreCase() will ignore cases and print out Same output in if block
+         but if we were using equals() itself it would print out code in else block*/
+        if(lower.equalsIgnoreCase(upper)){
+            System.out.println("Same output");
+        }else {
+            System.out.println("NOt matching");
+        }
+
     }
 }
